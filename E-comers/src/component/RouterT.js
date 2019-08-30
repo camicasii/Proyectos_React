@@ -110,8 +110,7 @@ class RouterT extends Component {
                         Aqui definimos la pagina de cada producto
                         */}
                         
-                        <Route exact path="/productos/:
-                        " render={(props)=>{
+                        <Route exact path="/productos/:idProducto" render={(props)=>{
                            
                            let idProducto=props.location.pathname.replace("/productos/",'')                                                     
                            
